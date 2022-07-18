@@ -14,10 +14,10 @@
 // limitations under the License.
 
 cc_binary {
-    name: "vendor.lineage.biometrics.fingerprint.inscreen@1.0-service.davinci",
+    name: "vendor.mokee.biometrics.fingerprint.inscreen@1.0-service.davinci",
     defaults: ["hidl_defaults"],
-    vintf_fragments: ["vendor.lineage.biometrics.fingerprint.inscreen@1.0-service.davinci.xml"],
-    init_rc: ["vendor.lineage.biometrics.fingerprint.inscreen@1.0-service.davinci.rc"],
+    vintf_fragments: ["vendor.mokee.biometrics.fingerprint.inscreen@1.0-service.davinci.xml"],
+    init_rc: ["vendor.mokee.biometrics.fingerprint.inscreen@1.0-service.davinci.rc"],
     relative_install_path: "hw",
     srcs: [
         "service.cpp",
@@ -30,7 +30,7 @@ cc_binary {
         "libhidlbase",
         "liblog",
         "libutils",
-        "vendor.lineage.biometrics.fingerprint.inscreen@1.0",
+        "vendor.mokee.biometrics.fingerprint.inscreen@1.0",
         "vendor.xiaomi.hardware.fingerprintextension@1.0",
     ],
 }

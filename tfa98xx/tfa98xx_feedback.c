@@ -174,7 +174,7 @@ amplifier_module_t HAL_MODULE_INFO_SYM = {
         .hal_api_version = HARDWARE_HAL_API_VERSION,
         .id = AMPLIFIER_HARDWARE_MODULE_ID,
         .name = "TFA98XX audio amplifier HAL",
-        .author = "The LineageOS Open Source Project",
+        .author = "The Mokee Open Source Project",
         .methods = &hal_module_methods,
     },
 };
